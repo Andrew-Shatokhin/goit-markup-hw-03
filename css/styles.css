@@ -140,6 +140,9 @@ body {
 
 .contact-mail,
 .contact-tel {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -168,7 +171,11 @@ body {
 }
 .hero-title {
   margin-top: 0;
+  margin-right: auto;
   margin-bottom: 30px;
+  margin-left: auto;
+  width: 696px;
+
   color: var(--secondary-text-color);
   text-transform: uppercase;
   font-weight: 900;
@@ -328,9 +335,6 @@ body {
 /* Футер */
 .page-footer {
   background-color: var(--hero-background-color);
-}
-
-.site-footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -349,7 +353,7 @@ body {
   vertical-align: Top;
 }
 
-.info-address a {
+.address-info a {
   color: var(--secondary-text-color);
   text-decoration: none;
   font-style: normal;
@@ -359,8 +363,8 @@ body {
   vertical-align: Top;
 }
 
-.info-address .mail,
-.info-address .tel {
+.address-info .mail,
+.address-info .tel {
   color: var(--info-address-color);
 }
 
@@ -370,8 +374,7 @@ body {
 }
 
 .studio-address,
-.mail {
-  display: inline-block;
+.studio-mail {
   margin-bottom: 9px;
 }
 
@@ -436,7 +439,7 @@ body {
 
 .project-title {
   padding: 0;
-  margin: 0;
+  margin: 0 0 4px 0;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
